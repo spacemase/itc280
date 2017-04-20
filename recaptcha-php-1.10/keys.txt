@@ -1,0 +1,10 @@
+spacemase.com
+Domain Name: 	spacemase.com
+
+This is a global key. It will work across all domains.
+Public Key: 	6Lcp5gcAAAAAAIEO2AqiHoRBP_xRJCKMimU27ORe
+
+Use this in the JavaScript code that is served to your users
+Private Key: 	6Lcp5gcAAAAAAK1YQ4D8M83t2Th4mbLs6wnQ-fRW
+
+Use this when communicating between your server and our server. Because this key is a global key, it is OK if the private key is distributed to multiple users. 

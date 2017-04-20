@@ -1,0 +1,45 @@
+/**
+ * nmEdit.css is a stylesheet nmEdit.php which provides
+ * PHP scaffolding for editing data in MySQL databases as we develop
+ * web applications.
+ *
+ * @package itc280
+ * @author Mason Jensen <mason.jensen@hotmail.com>
+ * @version v 1.5 2009/06/04
+ * @copyright Copyright (c) 2002-2009, Bill & Sara Newman (used by permission)
+ * @link http://www.spacemase.com/
+ * @license http://opensource.org/licenses/osl-3.0.php Open Software License ("OSL") v. 3.0
+ * @see nmEdit.php
+ */
+
+body { margin: 0 ; font-family: Helvetica, Arial, "Trebuchet MS", sans-serif ; }
+
+a:link { color: blue ; }
+a:visited { color: blue ;  }
+a:hover { color: black ; text-decoration: none ; }
+
+/*effects header over edit table*/
+h3 { margin: 0 5px 0 5px ;
+    text-align: center ;
+    font-weight: normal ;
+    background-color: #ccccff ;
+    font-family: Helvetica, Arial, "Trebuchet MS", sans-serif ;
+  }
+
+/*effects TD in header row*/
+.headerRow td { font-weight: bold ;
+               background-color: ccffcc ;
+               text-align: center ;
+             }
+/*effects edit table borders*/
+.edTBL{ border-collapse: collapse ; border: 1px solid #ccc ; }
+/*effects all TDs inside edit table*/
+.edTBL td { border: 1px solid #ccc ;
+           padding: 0 2px ;
+           font-family: Helvetica, Arial, "Trebuchet MS", sans-serif ;
+           font-size: .9em ;
+         }
+/*effects all TDs in even TRs in edit table*/
+.evenRow td {}
+/*effects all TDs in odd TRs in edit table*/
+.oddRow td { background-color: eeeeee ; }

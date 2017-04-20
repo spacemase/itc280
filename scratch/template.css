@@ -1,0 +1,13 @@
+/* if you're using a table apply your font-size to a <td> element - trying not to nest tables ... if you're not using <table>s, apply your font-size to the <body> element */
+
+body {font-size: .9em; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+td {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+.small {font-size: 76%;}
+.big {font-size: 120%;}
+
+a {font-family:Verdana, Arial, Helvetica, sans-serif;}
+a:link {color: #00f;}
+a:visited {color: #36f;}
+a:hover {text-decoration: none;}
+a:active {color: #f00;}

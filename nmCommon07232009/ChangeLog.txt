@@ -1,0 +1,10 @@
+ChangeLog for nmCommon Package: 2009-07-23  Bill Newman  <williamnewman@gmail.com>
+
+This is an informal changelog, a summary of changes in each version and between.
+Changes are categorized as Change, Fix, Sec (Security Issue) or Feature.
+
+Version 1.1 (2009-07-23)
+[Change] Edited config_inc.php to remove reference to pager_inc.php (part of nmPager package) 
+
+Version 1.0 ?
+[Change] Previous version of nmCommon include files named INC.php instead of _inc.php.
